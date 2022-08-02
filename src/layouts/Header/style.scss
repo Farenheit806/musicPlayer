@@ -1,0 +1,7 @@
+@use "src/vars" as *;
+
+header {
+  position: fixed;
+  width: 100vw;
+  background-color: $primary-bg;
+}

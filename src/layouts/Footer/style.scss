@@ -1,0 +1,14 @@
+@use "src/vars" as *;
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  padding: 10px 0;
+  text-align: center;
+  background-color: $primary-bg;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+}

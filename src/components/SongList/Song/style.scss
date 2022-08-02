@@ -1,0 +1,7 @@
+@use "src/vars" as *;
+.song {
+  display: flex;
+  gap: 10px;
+  background-color: $card-bg;
+  padding: 30px 45px;
+}

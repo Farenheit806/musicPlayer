@@ -1,0 +1,22 @@
+@use "src/vars" as *;
+
+nav {
+  ul {
+    display: flex;
+    gap: 20px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    li {
+      list-style-type: none;
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.link {
+  color: $link;
+}
+.link_active {
+  color: $active-link;
+}
