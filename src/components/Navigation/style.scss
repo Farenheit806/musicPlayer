@@ -1,22 +1,51 @@
-@use "src/vars" as *;
+@use "src/utils/vars" as *;
 
 nav {
   ul {
     display: flex;
+    flex-direction: column;
     gap: 20px;
-    padding: 10px 15px;
+    padding: 20px 0;
     text-transform: capitalize;
     li {
       list-style-type: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       a {
         text-decoration: none;
+        img {
+          height: $nav-width/2.5;
+          color: red;
+        }
       }
     }
   }
 }
-.link {
-  color: $link;
+.nav-link {
+  border-radius: 10px;
+  padding: 8px;
 }
-.link_active {
-  color: $active-link;
+.active-link {
+  background-color: $active-link-hovered;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+// .link {
+//   border-radius: 10px;
+//   padding: 5px;
+//   &__active {
+//     border-radius: 10px;
+//     padding: 5px;
+//     background-color: $active-link;
+//     filter: invert(100%);
+//     box-shadow: 1px 1px 10px rgb(255, 255, 255, 0.3);
+//     filter: invert(100%);
+//     // &:hover {
+//     //   background-color: $active-link-hovered;
+//     // }
+//   }
+//   &:hover {
+//     filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(20deg)
+//       brightness(100%);
+//   }
+// }

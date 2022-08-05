@@ -15,7 +15,6 @@ function App() {
         <Route path="/playlist" element={<Playlist />} />
         <Route path="*" element={<WrongPage />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-@use "src/vars";
+@use "src/utils/vars" as *;
 
 .player {
   position: fixed;

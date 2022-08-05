@@ -1,8 +1,7 @@
-@use "src/vars" as *;
+@use "src/utils/vars" as *;
 
 .app {
   display: flex;
-  flex-direction: column;
 
   height: 100vh;
 

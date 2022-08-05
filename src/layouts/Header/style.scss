@@ -1,7 +1,6 @@
-@use "src/vars" as *;
+@use "src/utils/vars" as *;
 
 header {
-  position: fixed;
-  width: 100vw;
+  width: $nav-width;
   background-color: $primary-bg;
 }

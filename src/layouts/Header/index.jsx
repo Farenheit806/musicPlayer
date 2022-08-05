@@ -3,8 +3,6 @@ import "./style.scss";
 
 export const Header = () => (
   <header>
-    <div className="container">
-      <Navigation />
-    </div>
+    <Navigation />
   </header>
 );
